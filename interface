@@ -1,0 +1,22 @@
+#program interface should have all of these 
+#1. tell the user what the program is snd what it can do
+#2. tell the user make choices or select option
+#3. let the user enter information - you as a delveloper should include a helpful message 
+#4. for every inter face displayresult or answer 
+#5. make the user close the program
+
+teamlist = []
+choice = ' '
+while choice != 'x':
+ print("TEAM MANAGER")
+ print9("====================")
+ print("this program will help you manage your team")
+ print("\n")
+ print("A: append a value")
+ print("B: print the teamlist")
+ print("x: exit the program")
+choice = input("enter your choice: ").
+if choice == 'A'
+     name = input("enter a name")
+     teamlist.append(name)
+print(teamlist)
